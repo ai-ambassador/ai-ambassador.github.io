@@ -12,9 +12,9 @@ var width = screen.width,
     height = screen.height,
     radius = 32;
 
-var node_color = '#5a5a5a'
+var node_color = '#2a2a2a'
     edge_color = node_color,
-    message_color = 'black';
+    message_color = '#00000088';
 var sample = poissonDiscSampler(width, height, radius);
 
 var svg = d3.select("#landing").append("svg")

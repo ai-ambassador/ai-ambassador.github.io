@@ -1,5 +1,35 @@
 
-/* --  background image section  -- */
+/* -- Navbar -- */
+
+.navbar {
+    height: 50px;
+}
+
+body {
+    margin-top: 50px;
+}
+
+.nav-item {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Courier New';
+}
+
+.nav-item span::first-letter {
+    padding-left: 0.1em;
+    padding-right: 0.05em;
+    font-size: 1.3em;
+    background-color: #FFE200;
+    // color: #F2BE4E;
+}
+
+.nav-item span {display:block;}
+
+
+/* --  Landing  -- */
+.landing-text {
+    color: #dddddd;
+}
 
 .bg-img {
     position: absolute;
@@ -24,3 +54,4 @@
     opacity: .12;
     background: #1C1D21;
 }
+

@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "AI Ambassador Program"
+title = "Partipating Universities"
 subtitle = ""
 
 [design]
@@ -22,7 +22,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "#111111"
+  color = "#ffffff"
   
   # Background gradient.
   # gradient_start = "DarkGreen"
@@ -36,7 +36,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -52,21 +52,20 @@ subtitle = ""
 <script src="//d3js.org/d3.v3.min.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-<div class='landing-text'>
+<div class='row' style='padding-top:30px;padding-bottom:30px;'>
 
-The AI Ambassador program is a series of "reverse visit days" for students to attend research talks and connect with active AI researchers in 1-1 or small group settings. The idea is that grad students and faculty travel to other institutions for a half- or full-day to meet with whoever might be interested in AI research. Our goal is to broaden the AI research community, and to include groups that are not yet well represented in top AI conferences (e.g. CVPR, AAAI, NeurIPS, etc.). 
+  <div class='col-sm-2' ></div>
 
-The program is run by a consortium of university research departments active in AI research. The ambassadors themselves are a mix of faculty and grad students who have collectively won numerous awards, including career faculty awards, best paper awards, Fulbright scholarships, and more. To learn more about the program, keep reading!
+  <div class='col-sm-3'>
+    <image width='100%' src=https://alexsax.github.io/experience/berkeley_seal_and_logo.jpg>
+  </div>
 
-- If you represent a group at a college/university and would like to connect and arrange a reverse visit day, please [contact us](#contact)!
-- If you are a propective student interested in applying to grad school in AI, check out our [resources page](#apply).
-- If you are a current researcher who would like to be an ambassador,please [contact us](#contact).
-- If you represent a university research department and would like to get involved, please [contact us](#contact).
-- While we are not currently accepting corporate sponsorships.
+  <div class='col-sm-1' ></div>
+
+  <div class='col-sm-3'>
+    <image width='100%' src=https://cs.stanford.edu/~amirz/files/EPFL_logo_1LR.png>
+  </div>
+
+  <div class='col-sm-2'></div>
 
 </div>
-
-
-{{% alert note %}}
-This homepage is still under construction. Please check back later for more details.
-{{% /alert %}}
