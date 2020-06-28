@@ -12,7 +12,7 @@ var width = screen.width,
     height = screen.height,
     radius = 32;
 
-var node_color = '#2a2a2a'
+var node_color = '#232323'
     edge_color = node_color,
     message_color = '#00000088';
 var sample = poissonDiscSampler(width, height, radius);
@@ -97,6 +97,7 @@ var s = d3.timer(function(elapsed) {
             .attr("r", 0)
             .transition()
                 .attr("r", 2)
+            .duration(500)
             .transition()
                 .attr("cx", link[1][0])
                 .attr("cy", link[1][1])

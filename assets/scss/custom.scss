@@ -1,5 +1,9 @@
 
 /* -- Navbar -- */
+// @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap');
 
 .navbar {
     height: 50px;
@@ -10,25 +14,86 @@ body {
 }
 
 .nav-item {
-    font-size: 1.3em;
-    font-weight: bold;
-    font-family: 'Courier New';
+    font-size: 1.4em;
+    font-family: 'Ubuntu Mono';
 }
 
 .nav-item span::first-letter {
     padding-left: 0.1em;
     padding-right: 0.05em;
-    font-size: 1.3em;
+    // font-size: 1.3em;
     background-color: #FFE200;
+    font-weight: bold;
+
     // color: #F2BE4E;
 }
 
 .nav-item span {display:block;}
 
+.nav-item span::first-letter {
+    padding-left: 0.1em;
+    padding-right: 0.05em;
+    // font-size: 1.3em;
+    background-color: #FFE200;
+    font-weight: bold;
+
+    // color: #F2BE4E;
+}
 
 /* --  Landing  -- */
 .landing-text {
+    font-family: 'Open Sans', sans-serif;
     color: #dddddd;
+}
+
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */
+
+
+
+#landing h1 {
+    font-family: 'VT323', monospace;
+    // font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    // src: url(data/fonts/IBMPlexMono-Bold.ttf) format('ttf'),
+            // url(data/fonts/IBMPlexMono-Regular.ttf) format('ttf');
 }
 
 .bg-img {
@@ -55,3 +120,32 @@ body {
     background: #1C1D21;
 }
 
+
+
+#landing h1{
+    width: auto;
+    display:inline-block; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+  //   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .02em; /* Adjust as needed */
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret 1.5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {max-width: 0}
+    to {max-width: 100%}
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: orange }
+    50% { border-color: transparent; }
+  }
+  
+  
+  

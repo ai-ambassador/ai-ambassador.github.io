@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "AI Ambassador Program"
+title = "<span>AI Ambassador Program:</span>"
 subtitle = ""
 
 [design]
@@ -54,7 +54,7 @@ subtitle = ""
 
 <div class='landing-text'>
 
-The AI Ambassador program is a series of "reverse visit days" for students to attend research talks and connect with active AI researchers in 1-1 or small group settings. The idea is that grad students and faculty travel to other institutions for a half- or full-day to meet with whoever might be interested in AI research. Our goal is to broaden the AI research community, and to include groups that are not yet well represented in top AI conferences (e.g. CVPR, AAAI, NeurIPS, etc.). 
+The AI Ambassador program is a series of "reverse visit days" for students to connect with active AI researchers in 1-1 or small group settings. The idea is that grad students and faculty travel to other institutions for a half- or full-day, give a short research talk, and then meet with whoever might be interested in AI research. Our goal is to broaden the AI research community to those not yet well represented in top AI conferences (e.g. CVPR, AAAI, NeurIPS, etc.). 
 
 The program is run by a consortium of university research departments active in AI research. The ambassadors themselves are a mix of faculty and grad students who have collectively won numerous awards, including career faculty awards, best paper awards, Fulbright scholarships, and more. To learn more about the program, keep reading!
 
