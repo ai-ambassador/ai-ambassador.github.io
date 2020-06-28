@@ -49,8 +49,6 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<script src="//d3js.org/d3.v3.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
 
 <div class='row' style='padding-top:30px;padding-bottom:30px;'>
 

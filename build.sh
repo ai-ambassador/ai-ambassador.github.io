@@ -4,5 +4,5 @@ hugo -d ai-ambassadors-build
 mv ai-ambassadors-build /tmp/
 git checkout master
 git rm -rf ./*
-mv /tmp/ai-ambassadors-build/* .
-
+# mv /tmp/ai-ambassadors-build/* .
+rsync -a /tmp/ai-ambassadors-build/* .

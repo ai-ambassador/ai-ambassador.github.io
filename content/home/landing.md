@@ -60,9 +60,9 @@ The program is run by a consortium of university research departments active in 
 
 - If you represent a group at a college/university and would like to connect and arrange a reverse visit day, please [contact us](#contact)!
 - If you are a propective student interested in applying to grad school in AI, check out our [resources page](#apply).
-- If you are a current researcher who would like to be an ambassador,please [contact us](#contact).
+- If you are a current researcher who would like to be an ambassador, please [contact us](#contact).
 - If you represent a university research department and would like to get involved, please [contact us](#contact).
-- While we are not currently accepting corporate sponsorships.
+- We are not currently accepting corporate sponsorships.
 
 </div>
 

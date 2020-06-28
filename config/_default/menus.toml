@@ -9,9 +9,15 @@
   weight = 5
 
 [[main]]
+  name = "Resources"
+  url = "#resources"
+  weight = 40
+
+[[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 50
+
 
 [[main]]
   name = "Team"
