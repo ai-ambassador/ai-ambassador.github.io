@@ -5,6 +5,11 @@
 
 [[main]]
   name = "Home"
+  url = "#landing"
+  weight = 5
+
+[[main]]
+  name = "About"
   url = "#about"
   weight = 10
 

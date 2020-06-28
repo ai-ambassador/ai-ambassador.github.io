@@ -1,0 +1,26 @@
+
+/* --  background image section  -- */
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100% !important;
+	width: 100% !important;
+}
+
+.bg-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .12;
+    background: #1C1D21;
+}
